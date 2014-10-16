@@ -1,0 +1,487 @@
+body {
+background-color: #F2AE72;
+margin-left: auto;
+margin-right: auto;
+overflow: auto;
+position: relative;
+}
+
+#newsarticle {
+    font-family: Georgia, serif;
+    margin: 30px 30px 30px 30px;
+    border-bottom: 2px dashed;
+}
+
+.linkspage {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: -25px;
+}
+
+.linkspagedesc {
+    font-family: Georgia, serif;
+    margin: 10px 10px 5px 15px;
+}
+
+a:link {
+    color: #8C4646;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #588C7E;
+}
+
+a:hover {
+    color: #D96459;
+    text-decoration: underline;
+}
+
+#officersheader {
+    text-align: center;
+    margin-bottom: -30px;
+}
+
+.officerspics div{
+    display: block;
+    height: 60px;
+    width: 142px;
+}
+
+#officerspics {
+    text-align: center;
+    padding: 30px 0px 50px 15px;
+    height: 825px;
+    margin-bottom: -200px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: small;
+}
+
+#centered{
+    display: inline-block;
+    margin-bottom: -50px;
+}
+
+#calendar {
+    padding: 45px;
+}
+
+#bordertop1, #bordertop2, #bordertop3, #bordertop4, #bordertop5, #bordertop6 {
+    margin-top: -1px;
+}
+
+#borderbottom1, #borderbottom2, #borderbottom3, #borderbottom4, #borderbottom5, #borderbottom6 {
+    margin-bottom: -4px;
+}
+
+#fillerimage {
+    margin: 10px 0px -50px -70px;
+}
+
+#news {
+    text-align: left;
+    margin: 0px 0px 0px -60px;
+}
+
+#news h3 {
+    font-family: Verdana, Geneva, sans-serif;
+    color: #8C4646;
+}
+
+#news strong {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8C4646;
+}
+#contact p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+#contact h2 {
+    font-size: 25px;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+#main2 {
+    width: 300px;
+    text-align: center;
+    float: right;
+    padding: 0px 5px 20px 5px;
+    margin: 25px auto 40px 50px;
+}
+
+#contact {
+    width: 300px;
+    text-align: center;
+    float: right;
+    height: 175px;
+    background-color: #F2E394;
+    padding: 0px 5px 0px 5px;
+    margin: 0px 50px 0px auto;
+}
+
+#subtitle {
+    margin-left: 165px;
+}
+
+#olhsh3, #jclh3, #lhsh3 {
+    padding: 5px 405px 5px 25px;
+    font-family: Verdana, Geneva, sans-serif;
+    color: #588C7E;
+}
+
+#olhsp, #jclp, #lhsp {
+    padding: 0px 405px 0px 25px;
+    font-family: Georgia, serif;
+}
+
+#nextmeetingh2 {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 20px;
+}
+
+#nextmeetingdate {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 25px;
+}
+
+#nextmeetingdescription {
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 15px;
+}
+
+#nextmeeting {
+    width: 300px;
+    text-align: center;
+    float: right;
+    height: 175px;
+    background-color: #588C7E;
+    padding: 5px 5px 5px 5px;
+    margin: -25px 40px 10px auto;
+    border: dashed;
+    border-width: 2px;
+    border-color: #F2E394;
+}
+
+#footer {
+    background-color: #F2E394;
+    text-align: center;
+    width: 990px;
+    margin: 0 auto;
+    padding-top: 0px;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+#footer1{
+    background-color: #F2E394;
+    text-align: center;
+    width: 990px;
+    height: 400px;
+    margin-top: -100px;
+    padding-top: 0px;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+#whoarewe {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    padding: 0px 0px 0px 25px;
+}
+
+#horatii {
+    padding: 5px 0px 5px 20px;
+}
+
+#subtitle {
+    font-family: serif;
+    font-size: small;
+    padding-left: 25px;
+}
+
+#header, #main1 {
+background-color: #F2E394;
+padding: 0px;
+width: 990px;
+margin: 0 auto;
+}
+
+#header {
+    text-align: center;
+}
+
+#main1 {
+    width: 990px;
+    position: static;
+    display: block;
+    padding-bottom: 20px;
+}
+
+#mainphotos {
+    background-color: #F2E394;
+    padding: 0px;
+    width: 990px;
+    margin: 0 auto;
+    width: 990px;
+    position: static;
+    display: block;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+#photosheader {
+    text-align: center;
+}
+
+#calendarheader {
+    text-align: center;
+}
+
+div.officerspics {
+    margin: 5px;
+    padding: 5px;
+    border: 5px ridge #8C4646;
+    height: auto;
+    width: auto;
+    float: left;
+    text-align: center;
+    background-color: #D96459;
+}	
+
+div.officerspics img {
+    display: inline;
+    margin: 5px;
+    border: 0px;
+}
+
+div.desc {
+  text-align: center;
+  font-weight: normal;
+  width: 120px;
+  margin: 5px;
+}
+
+* {
+    margin: 0px;
+}
+
+#navigation {
+list-style-type: none;
+margin: 0px;
+padding: 0px;
+text-align: center;
+}
+
+#navigation a {
+    display: block;
+    width: 84px;
+    height: 20px;
+    background-color: #D96459;
+    margin: 0px;
+    text-decoration: none;
+    border-style: outset;
+    border-width: medium;
+    border-color: #588C7E
+}
+
+li {
+    display: inline-block;
+}
+
+.home:before {
+    content: 'HOME';
+    color: #8C4646;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: small;
+    
+}
+
+.home:hover:before {
+    content: 'DOMUS';
+    background-color: #8C4646;
+    color: #D96459;
+    display: block;
+    width: 84px;
+    height: 20px;
+    margin: 0px;
+}
+
+.news:before {
+    content: 'NEWS';
+    color: #8C4646;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: small;
+}
+
+.news:hover:before {
+    content: 'NUNTII';
+    background-color: #8C4646;
+    color: #D96459;
+    display: block;
+    width: 84px;
+    height: 20px;
+    margin: 0px;
+}
+
+.calendar:before {
+    content: 'EVENTS';
+    color: #8C4646;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: small;
+}
+
+.calendar:hover:before {
+    content: 'FASTUS';
+    background-color: #8C4646;
+    color: #D96459;
+    display: block;
+    width: 84px;
+    height: 20px;
+    margin: 0px;
+}
+
+.photos:before {
+    content: 'PICTURES';
+    color: #8C4646;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: small;
+}
+
+.photos:hover:before {
+    content: 'PICTURAE';
+    background-color: #8C4646;
+    color: #D96459;
+    display: block;
+    width: 84px;
+    height: 20px;
+    margin: 0px;
+}
+
+.forms:before {
+    content: 'FORMS';
+    color: #8C4646;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: small;
+}
+
+.forms:hover:before {
+    content: 'CHARTI';
+    background-color: #8C4646;
+    color: #D96459;
+    display: block;
+    width: 84px;
+    height: 20px;
+    margin: 0px;
+}
+
+.links:before {
+    content: 'LINKS';
+    color: #8C4646;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: small;
+}
+
+.links:hover:before {
+    content: 'ANI';
+    background-color: #8C4646;
+    color: #D96459;
+    display: block;
+    width: 84px;
+    height: 20px;
+    margin: 0px;
+}
+
+.games:before {
+    content: 'GAMES';
+    color: #8C4646;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: small;
+}
+
+.games:hover:before {
+    content: 'LUDI';
+    background-color: #8C4646;
+    color: #D96459;
+    display: block;
+    width: 84px;
+    height: 20px;
+    margin: 0px;
+}
+
+.officers:before {
+    content: 'OFFICERS';
+    color: #8C4646;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: small;
+}
+
+.officers:hover:before {
+    content: 'OFFICIARII';
+    background-color: #8C4646;
+    color: #D96459;
+    display: block;
+    width: 84px;
+    height: 20px;
+    margin: 0px;
+}
+
+.archives:before {
+    content: 'ARCHIVES';
+    color: #8C4646;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: small;
+}
+
+.archives:hover:before {
+    content: 'TABULINI';
+    background-color: #8C4646;
+    color: #D96459;
+    display: block;
+    width: 84px;
+    height: 20px;
+    margin: 0px;
+}
+
+.awards:before {
+    content: 'AWARDS';
+    color: #8C4646;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: small;
+}
+
+.awards:hover:before {
+    content: 'PRAEMII';
+    background-color: #8C4646;
+    color: #D96459;
+    display: block;
+    width: 84px;
+    height: 20px;
+    margin: 0px;
+}
+
+.sitemap:before {
+    content: 'SITE MAP';
+    color: #8C4646;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 13px;
+}
+
+.sitemap:hover:before {
+    content: 'CARTA';
+    background-color: #8C4646;
+    color: #D96459;
+    display: block;
+    width: 84px;
+    height: 20px;
+    margin: 0px;
+}
+
+h1 {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    text-align: left;
+    padding: 5px 0px 0px 15px;
+    font-size: 28px;
+}
+
+
