@@ -292,7 +292,7 @@ li {
 .home:before {
     content: 'HOME';
     color: #8C4646;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
     font-size: small;
     
 }
@@ -310,7 +310,7 @@ li {
 .news:before {
     content: 'NEWS';
     color: #8C4646;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
     font-size: small;
 }
 
@@ -327,7 +327,7 @@ li {
 .calendar:before {
     content: 'EVENTS';
     color: #8C4646;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
     font-size: small;
 }
 
@@ -344,7 +344,7 @@ li {
 .photos:before {
     content: 'PICTURES';
     color: #8C4646;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
     font-size: small;
 }
 
@@ -361,7 +361,7 @@ li {
 .forms:before {
     content: 'FORMS';
     color: #8C4646;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
     font-size: small;
 }
 
@@ -378,7 +378,7 @@ li {
 .links:before {
     content: 'LINKS';
     color: #8C4646;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
     font-size: small;
 }
 
@@ -395,7 +395,7 @@ li {
 .games:before {
     content: 'GAMES';
     color: #8C4646;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
     font-size: small;
 }
 
@@ -412,7 +412,7 @@ li {
 .officers:before {
     content: 'OFFICERS';
     color: #8C4646;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
     font-size: small;
 }
 
@@ -429,7 +429,7 @@ li {
 .archives:before {
     content: 'ARCHIVES';
     color: #8C4646;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
     font-size: small;
 }
 
@@ -446,7 +446,7 @@ li {
 .awards:before {
     content: 'AWARDS';
     color: #8C4646;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
     font-size: small;
 }
 
@@ -463,7 +463,7 @@ li {
 .sitemap:before {
     content: 'SITE MAP';
     color: #8C4646;
-    font-family: "Arial Black", Gadget, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
     font-size: 13px;
 }
 
