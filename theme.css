@@ -464,7 +464,7 @@ li {
     content: 'SITE MAP';
     color: #8C4646;
     font-family: "Arial Black", Gadget, sans-serif;
-    font-size: 13px;
+    font-size: small;
 }
 
 .sitemap:hover:before {
