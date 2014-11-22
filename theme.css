@@ -4,23 +4,24 @@ margin-left: auto;
 margin-right: auto;
 overflow: auto;
 position: relative;
+font-family: CalendasPlus, serif;
 }
 
-#newsarticle {
-    font-family: Georgia, serif;
+.newsarticle {
+    font-family: AleoRegular, Georgia, serif;
     margin: 30px 30px 30px 30px;
     border-bottom: 2px dashed;
 }
 
 .linkspage {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: BebasNeue, Verdana, Geneva, sans-serif;
     font-size: 20px;
     font-weight: bold;
     margin-left: -25px;
 }
 
 .linkspagedesc {
-    font-family: Georgia, serif;
+    font-family: CalendasPlus, Georgia, serif;
     margin: 10px 10px 5px 15px;
 }
 
@@ -45,7 +46,7 @@ a:hover {
 
 .officerspics div{
     display: block;
-    height: 60px;
+    height: 50px;
     width: 142px;
 }
 
@@ -54,7 +55,7 @@ a:hover {
     padding: 30px 0px 50px 15px;
     height: 825px;
     margin-bottom: -200px;
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: AileronLight, Verdana, Geneva, sans-serif;
     font-size: small;
 }
 
@@ -82,25 +83,28 @@ a:hover {
 #news {
     text-align: left;
     margin: 0px 0px 0px -60px;
+    font-family: CalendasPlus, serif;
 }
 
 #news h3 {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: BebasNeue, Verdana, Geneva, sans-serif;
     color: #8C4646;
+    font-size: 30px;
 }
 
 #news strong {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: BebasNeue, Arial, Helvetica, sans-serif;
     color: #8C4646;
+    font-size: 20px;
 }
 #contact p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: AileronLight, Arial, Helvetica, sans-serif;
     font-size: 20px;
 }
 
 #contact h2 {
     font-size: 25px;
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: AleoRegular, "Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 #main2 {
@@ -127,27 +131,28 @@ a:hover {
 
 #olhsh3, #jclh3, #lhsh3 {
     padding: 5px 405px 5px 25px;
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: BebasNeue, Verdana, Geneva, sans-serif;
+    font-size: 25px;
     color: #588C7E;
 }
 
 #olhsp, #jclp, #lhsp {
     padding: 0px 405px 0px 25px;
-    font-family: Georgia, serif;
+    font-family: CalendasPlus, Georgia, serif;
 }
 
 #nextmeetingh2 {
-    font-family: Tahoma, Geneva, sans-serif;
-    font-size: 20px;
+    font-family: BebasNeue, Tahoma, Geneva, sans-serif;
+    font-size: 30px;
 }
 
 #nextmeetingdate {
-    font-family: Tahoma, Geneva, sans-serif;
-    font-size: 25px;
+    font-family: BebasNeue, Tahoma, Geneva, sans-serif;
+    font-size: 40px;
 }
 
 #nextmeetingdescription {
-    font-family: Tahoma, Geneva, sans-serif;
+    font-family: AileronLight, Tahoma, Geneva, sans-serif;
     font-size: 15px;
 }
 
@@ -170,8 +175,12 @@ a:hover {
     width: 990px;
     margin: 0 auto;
     padding-top: 0px;
-    font-family: sans-serif;
+    font-family: AileronLight, sans-serif;
     font-size: small;
+}
+
+#archiveslist {
+    font-family: CalendasPlus, serif;
 }
 
 #footer1{
@@ -181,12 +190,12 @@ a:hover {
     height: 400px;
     margin-top: -100px;
     padding-top: 0px;
-    font-family: sans-serif;
+    font-family: AileronLight, sans-serif;
     font-size: small;
 }
 
 #whoarewe {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: AleoRegular, "Palatino Linotype", "Book Antiqua", Palatino, serif;
     padding: 0px 0px 0px 25px;
 }
 
@@ -478,10 +487,33 @@ li {
 }
 
 h1 {
-    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-family: AleoRegular, "Palatino Linotype", "Book Antiqua", Palatino, serif;
     text-align: left;
     padding: 5px 0px 0px 15px;
     font-size: 28px;
 }
 
+@font-face {
+    font-family: BebasNeue;
+    src: local('BebasNeue'), url('fonts/BebasNeue.otf') format('opentype');
+}
 
+@font-face {
+    font-family: CalendasPlus;
+    src: local('CalendasPlus'), url('fonts/CalendasPlus.otf') format('opentype');
+}
+
+@font-face {
+    font-family: Kankin;
+    src: local('Kankin'), url('fonts/Kankin.otf') format('opentype');
+}
+
+@font-face {
+    font-family: AileronLight;
+    src: local('AileronLight'), url('fonts/AileronLight.otf') format('opentype');
+}
+
+@font-face {
+    font-family: AleoRegular;
+    src: local('AleoRegular'), url('fonts/AleoRegular.otf') format('opentype');
+}
